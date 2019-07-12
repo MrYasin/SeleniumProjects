@@ -32,10 +32,10 @@ time.sleep(2)       ### sets the time(seconds) you wait on that page
 ###### SEARCH FOR A HASHTAG
 
 
-searchFıeld = browser.find_element_by_xpath("//*[@id='search-query']") 
+searchField = browser.find_element_by_xpath("//*[@id='search-query']") 
 searchButton = browser.find_element_by_xpath("/html/body/div[2]/div[1]/div[2]/div/div/div[3]/div/form/span/button")
 
-searchFıeld.send_keys("#worldsugliestdog")   ### change input to search something else
+searchField.send_keys("#worldsugliestdog")   ### change input to search something else
 searchButton.click()
 time.sleep(2)       ### sets the time(seconds) you wait on that page
 
