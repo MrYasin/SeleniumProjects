@@ -26,3 +26,11 @@ SELENIUM TWITTER
       Change the searchField.send_keys("xxxx") in line 38 for the page you want.
       Change the for loop in line 70 to the function you want.
 
+SELENIUM INSTAGRAM
+
+  loginInfo.py
+    Put your login info.
+    
+  getAllSubs.py
+    This program gets all your followers, following and followed hashtags list and saves it in txt files.
+    
